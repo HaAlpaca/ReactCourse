@@ -1,0 +1,25 @@
+.counterContainer {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: inline-block;
+}
+
+.countDisplay {
+    font-size: 9em;
+    /* margin-bottom: 10px; */
+}
+
+.countBtn {
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    font-size: 1.5em;
+    margin: 0px 5px;
+    background-color: hsl(70, 82%, 53%);
+    border: none;
+    border-radius: 5px;
+}

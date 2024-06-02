@@ -1,0 +1,25 @@
+body {
+    background-image: url(https://wallpapershome.com/images/pages/pic_h/24388.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    min-height: 100vh;
+}
+.Container {
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    padding: 10px 0px;
+}
+
+.clock {
+    color: white;
+    font-family: monospace;
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 3px 3px 5px hsla(0, 0, 0, 0.75%);
+}

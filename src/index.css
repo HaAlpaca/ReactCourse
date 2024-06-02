@@ -1,0 +1,70 @@
+.card {
+  border: 1px solid hsl(75, 67%, 46%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(128, 227, 236, 0.495);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card .card-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card .card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 10px;
+  color: #000;
+}
+.card-description {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: rgba(128, 227, 236, 1);
+}
+.box {
+  border: 3px solid black;
+  padding: 25px;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://wallpapershome.com/images/pages/pic_h/24388.jpg);
+}
+.stopwatch {
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 30px;
+}
+.display {
+  font-family: monospace;
+  font-size: 5rem;
+  font-weight: bold;
+  color: hsl(78, 12%, 28%);
+}
+
+.controls button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 5px;
+  color: rgb(238, 177, 177);
+  border: none;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  background-color: hsl(170, 69%, 60%);
+  color: white;
+}
